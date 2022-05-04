@@ -1,14 +1,14 @@
 const mongoose = require("mongoose");
 
-
-const PokemonSchema = new mongoose.Schema({
-  num: Number,
-  name: {
-    type: String,
-    required: [true, "You must provide a name."]
-  }
+const StockSchema = new mongoose.Schema({
+  skuNumber: String,
+  itemName: String,
+  itemStyle: String,
+  itemUrl: String,
+  itemCategory: String,
+  time: String,
 });
 
-const Pokemon = mongoose.model("Pokemon", PokemonSchema);
+const BagStock = mongoose.model("StockInfo", StockSchema);
 
-module.exports = Pokemon;
+module.exports = BagStock;

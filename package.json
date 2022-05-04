@@ -11,20 +11,31 @@
     "dev": "yarn dev:react | yarn dev:server"
   },
   "dependencies": {
+    "cors": "^2.8.5",
+    "dom-parser": "^0.1.6",
     "dotenv": "^16.0.0",
     "express": "^4.17.3",
+    "express-xml-bodyparser": "^0.3.0",
+    "fs": "^0.0.1-security",
+    "global": "^4.4.0",
     "mongoose": "^6.2.8",
-    "react": "^17.0.2",
-    "react-dom": "^17.0.2"
+    "parse-js": "^0.7.4",
+    "parser": "^0.1.4",
+    "react": "^18.1.0",
+    "react-dom": "^18.1.0",
+    "xhr2": "^0.2.1"
   },
   "devDependencies": {
-    "@babel/core": "^7.17.8",
-    "@babel/preset-env": "^7.16.11",
+    "@babel/core": "^7.17.10",
+    "@babel/preset-env": "^7.17.10",
     "@babel/preset-react": "^7.16.7",
-    "babel-loader": "^8.2.4",
+    "babel-loader": "^8.2.5",
     "css-loader": "^6.7.1",
     "style-loader": "^3.3.1",
-    "webpack": "^5.70.0",
-    "webpack-cli": "^4.9.2"
-  }
+    "webpack": "^5.72.0",
+    "webpack-cli": "^4.9.2",
+    "webpack-dev-server": "^4.8.1"
+  },
+  "repository": "https://github.com/wendyzhang7/Express_React_QA_RFC2202.git",
+  "author": "Wendy Zhang <wzhang5252@gmail.com>"
 }

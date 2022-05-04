@@ -1,11 +1,11 @@
 import React from "react";
 import reactDOM from "react-dom";
 
-import PokemonList from "./PokemonList.js";
+import StockList from "./StockList.js";
 
 const App = () => {
   return <div className="App">
-    <PokemonList />
+    <StockList />
   </div>
 }
 
